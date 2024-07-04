@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.todo-input{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type = "text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid, #ccc;
+    border-radius: 5px, 0, 0, 5px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0, 5px, 5px, 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    width: 60%;
+    justify-content: space-between; 
+    padding-bottom: 5px;
+    
+}
+
+
+.delete-btn:hover {
+    background-color: #ff3b3b;
+}
+
+.delete-btn, .complete-btn{
+    padding: 5px 10px;
+    font-size: 12.5px;
+}
+
+#todoList li .completed {
+    text-decoration: line-through;
+}
+.complete-btn:hover {
+    background-color: #218838;
+}
+
+#todoList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todoList li span {
+    flex: 1; /* Takes up remaining space */
+}
+
+#todoList li button {
+    margin-left: 5px; /* Add some space between buttons */
+}
