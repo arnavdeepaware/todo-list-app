@@ -20,3 +20,6 @@ The To-Do List App is a simple and efficient web-based application that helps us
 **CSS:** For styling the application.
 
 **JavaScript:** For adding interactivity and functionality.
+
+# Preview
+[Live Demo](https://arnavdeepaware-todolist.netlify.app/)
